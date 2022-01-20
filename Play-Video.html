@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Video - FaizTube</title>
+    <link rel="icon" href="images/faiz-tube-icon.png">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!------------ Navigation Bar ------------>
+
+    <nav class="flex-div">
+
+        <!-- Navigation left -->
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" alt="Menu" class="menu-icon">
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </div>
+
+        <!-- Navigation middle -->
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+            </div>
+            <img src="images/search.png" alt="Search" class="search">
+            <img src="images/voice-search.png" class="mic-icon">
+        </div>
+
+        <!-- Navigation right -->
+        <div class="nav-right flex-div">
+            <img src="images/upload.png">
+            <img src="images/more.png">
+            <img src="images/notification.png">
+            <img src="images/Jack.png" class="user-icon">
+        </div>
+
+    </nav>
+
+    <!------------ Side Bar ------------>
+
+    <div class="small-sidebar small-sidebar-play-video">
+
+        <!-- Shortcut-links -->
+        <div class="shortcut-links">
+            <a href="#">
+                <img src="images/home.png" alt="Home">
+                <p>Home</p>
+            </a>
+            <a href="#">
+                <img src="images/explore.png" alt="Explore">
+                <p>Explore</p>
+            </a>
+            <a href="#">
+                <img src="images/subscriprion.png" alt="Subscriprion">
+                <p>Subscription</p>
+            </a>
+            <a href="#">
+                <img src="images/library.png" alt="Library">
+                <p>Library</p>
+            </a>
+            <a href="#">
+                <img src="images/history.png" alt="History">
+                <p>History</p>
+            </a>
+            <a href="#">
+                <img src="images/playlist.png" alt="Playlist">
+                <p>Playlist</p>
+            </a>
+            <a href="#">
+                <img src="images/messages.png" alt="Messages">
+                <p>Messages</p>
+            </a>
+            <a href="#">
+                <img src="images/show-more.png" alt="Show More">
+                <p>Show More</p>
+            </a>
+        </div>
+
+        <hr>
+
+        <!-- Subscribed list -->
+        <div class="subscribed-list">
+            <h3>SUBSCREIBED</h3>
+            <a href="#">
+                <img src="images/Jack.png">
+                <p>Jack Nicholson</p>
+            </a>
+            <a href="#">
+                <img src="images/simon.png">
+                <p>Simon Baker</p>
+            </a>
+            <a href="#">
+                <img src="images/tom.png">
+                <p>Tom Riddle</p>
+            </a>
+            <a href="#">
+                <img src="images/megan.png">
+                <p>Megan Ryan</p>
+            </a>
+            <a href="#">
+                <img src="images/cameron.png">
+                <p>Cameron Diaz</p>
+            </a>
+        </div>
+
+    </div>
+
+    <!--------------- Main Content --------------->
+
+    <div class="container play-container">
+        <div class="row">
+
+            <!-- Play Video -->
+            <div class="play-video">
+                <video src="images/video.mp4" type="video/mp4" controls autoplay muted></video>
+                <div class="tags">
+                    <a href="#">#Coding</a>
+                    <a href="#">#HTML</a>
+                    <a href="#">#Css</a>
+                    <a href="#">#JavaScript</a>
+                </div>
+                <h3>Best Platform To Learn Web Development</h3>
+                <div class="play-video-info">
+                    <p>15K views &bull; 2 days ago</p>
+                    <div>
+                        <a href="#"><img src="images/like.png">1.2K</a>
+                        <a href="#"><img src="images/dislike.png">86</a>
+                        <a href="#"><img src="images/share.png">Share</a>
+                        <a href="#"><img src="images/save.png">Save</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="publisher">
+                    <img src="images/Jack.png">
+                    <div>
+                        <p>Faiz Tube</p>
+                        <span>502K Subscibers</span>
+                    </div>
+                    <button type="button">Subscribe</button>
+                </div>
+                <div class="vid-description">
+                    <p>Channel that makes learning easy</p>
+                    <p>Subscribe Faiz Ideas to watch tutorials on web development</p>
+                </div>
+                <hr>
+                <div class="before-comments">
+                    <h4>153 Comments</h4>
+                    <img src="images/menu.png">
+                    <h4>SORT BY</h4>
+                </div>
+                <div class="add-comments flex-div">
+                    <img src="images/Jack.png">
+                    <div>
+                        <input type="text" class="input" placeholder="Write Comments...">
+                    </div>
+                    <div class="button">
+                        <button class="cancel">Cancel</button>
+                        <button type="button">Comment</button>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+                <div class="old-comments">
+                    <div class="flex-div">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>2 days ago</span></h3>
+                            <p>A glogal computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.</p>
+                        </div>
+                    </div>
+                    <div class="comment-action flex-div">
+                        <img src="images/like.png" class="like">
+                        <span>23</span>
+                        <img src="images/dislike.png">
+                        <span>2</span>
+                        <a href="#" class="reply">REPLY</a>
+                        <a href="#" class="replies">All Replies</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <div class="right-sidebar">
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail1.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail2.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail3.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail4.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail5.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail6.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail7.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail8.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail1.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail2.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail3.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail4.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail5.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail6.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail7.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail8.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail1.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail2.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail3.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="#" class="small-thumbnail">
+                        <img src="images/thumbnail4.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="#">Best Channel to learn coding that help you to be a good web developer</a>
+                        <p>Faiz Tube</p>
+                        <p>15K views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!------------------ Footer ------------------>
+
+    <footer class="footer-flex-div">
+        <!-- <div class="nav-footer"> -->
+        <a href="#">
+            <img src="images/home.png" alt="Home">
+            <p>Home</p>
+        </a>
+        <a href="#">
+            <img src="images/explore.png" alt="Explore">
+            <p>Explore</p>
+        </a>
+        <a href="#">
+            <img src="images/upload.png">
+        </a>
+        <a href="#">
+            <img src="images/subscriprion.png" alt="Subscriprion">
+            <p>Subscription</p>
+        </a>
+        <a href="#">
+            <img src="images/library.png" alt="Library">
+            <p>Library</p>
+        </a>
+        </a>
+        <!-- </div> -->
+    </footer>
+
+    <!----------- JavaScript Linked ----------->
+    <script src="Script.js"></script>
+
+</body>
+
+</html>
